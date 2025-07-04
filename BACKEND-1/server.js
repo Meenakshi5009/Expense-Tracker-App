@@ -24,10 +24,10 @@ app.use("/api/v1/dashboard", dashboardRoutes);
 //Server uploads folder
 app.use("/uploads", express.static(path.join(__dirname,"uploads")));
 
-app.use(express.static(path.join(__dirname, "../frontend/dist")));
+app.use(express.static(path.join(__dirname, "../  FRONTEND/dist")));
 
 app.get('/{*any}', (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+  res.sendFile(path.join(__dirname, "../FRONTEND/dist/index.html"));
 });
 
 
