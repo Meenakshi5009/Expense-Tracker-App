@@ -1,5 +1,5 @@
 import React from 'react';
-import LOGO from "../../assets/images/xpenso.png";
+import LOGO from "../../assets/images/logo2.png";
 import RIGHT_IMAGE from "../../assets/images/rightxp.png";
 
 const AuthLayout = ({ children }) => {
